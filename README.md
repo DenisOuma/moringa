@@ -19,7 +19,7 @@ Moringa
 
 ## General info
 
-This project is a school website that will contain general information about Moringa School.Additionally, the site will allow all Moringa school attendees ( staff, students ) and visitors to clock in their arrival.Subsequently, school alumni willl also be able to login to the school alumni category via the webpage where they will be able to keep in touch with their fellow alumni as well as get information about tech events.
+This project is a school website that will contain general information about Moringa School.Additionally, the site will allow all Moringa school attendees ( staff, students ) and visitors to clock in their arrivals and departure.Subsequently, school alumni willl also be able to login to the school alumni category via the webpage where they will be able to keep in touch with their fellow alumni as well as get information about tech events.
 
 ## Technologies
 
