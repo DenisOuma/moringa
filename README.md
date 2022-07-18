@@ -1,8 +1,8 @@
-## About The Project
+# About The Project
 
 # Project Name
 
-    Dairy Business
+Moringa
 
 ## Contributors
 
@@ -15,11 +15,11 @@
 - [General info](#general-info)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [contac](#contact)
+- [Contact](#contact)
 
 ## General info
 
-This project is an online dairy farm management system that will aid in overseeing milk production, paying employees, calculating income rates, and maintaining records of milk production with the best cows. The system is automated, allowing users to input data at any time and monitor the condition of the cows.
+This project is a school website that will contain general information about Moringa School.Additionally, the site will allow all Moringa school attendees ( staff, students ) and visitors to clock in their arrival.Subsequently, school alumni willl also be able to login to the school alumni category via the webpage where they will be able to keep in touch with their fellow alumni as well as get information about tech events.
 
 ## Technologies
 
@@ -29,4 +29,18 @@ This project is an online dairy farm management system that will aid in overseei
         - JavaScript - Is used to impliment the website functionality.
         - Google Fonts and Icons - Is used to impliment the icons and the fonts on the page
 
-## Requirements
+## Setup
+
+To run this projcet,clone this repository fom github at https://github.com/DenisOuma/moringa-group-project.
+
+## Contact
+
+For anything regarding the project contact any of the developers at:
+
+queenslay.naila@student.moringaschool.com
+
+duncan.langat@student.moringaschool.com
+
+daisy.odongo@student.moringaschool.com
+
+denis.ouma@student.moringaschool.com
