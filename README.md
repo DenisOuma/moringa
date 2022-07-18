@@ -9,6 +9,7 @@ Moringa
     Denis Ouma Otieno
     Jema Queenslay Naila
     Daisy Odongo
+    Duncan Langat
 
 ## Table of contents
 
