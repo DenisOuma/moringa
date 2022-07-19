@@ -1,18 +1,13 @@
-body{
-
-    justify-content: center;
-}
-
 form{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+
 }
 
-input[type=text], select{
-    width: 100%;
+input{
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 0px;
+    margin-right: 60%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
