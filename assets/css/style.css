@@ -32,7 +32,7 @@ body {
 	background-attachment: fixed;
 	background-image: url("/assets/images/landing.jpg");
 
-	background-size: cover;
+	background-size: contain;
 	/* -moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
 	-webkit-transform: scaleY(-1);
@@ -77,11 +77,9 @@ body {
 	font-size: 23px;
 	color: #fff;
 	padding: 30px;
-    #FA9755
 }
-.nav-options ul > li> a:hover{
-	
-    color: #FA9755;
+.nav-options ul > li > a:hover {
+	color: #fa9755;
 }
 .nav-options ul > li > a {
 	text-decoration: none;
