@@ -6,11 +6,17 @@ body {
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: darkblue;
+  background-color: black;
   align-items: center;
+  color: white;
+}
+
+.header > p {
+  font-size: larger;
+  font-weight: bolder;
 }
 .marked {
-  color: black;
+  color: white;
 }
 .sectionone {
   display: grid;
@@ -28,10 +34,6 @@ body {
   margin-right: 3px;
   justify-content: space-around;
 }
-/* .welcome {
-  display: flex;
-  flex-direction: row;
-} */
 
 .sectiontwo {
   display: grid;
@@ -39,6 +41,11 @@ body {
   gap: 4rem;
 }
 
+.postbar {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
 .sectionthree {
   display: grid;
   grid-template-columns: 1fr 50% 1fr;
