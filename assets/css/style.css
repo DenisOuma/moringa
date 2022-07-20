@@ -24,22 +24,10 @@ body {
 		z-index: 1;
 	}
 }
-.bacg-ground-img {
+.bacg-ground-img > img {
 	height: 900px;
-
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-image: url("/assets/images/landing.jpg");
-
-	background-size: contain;
-	/* -moz-transform: scaleX(-1);
-	-o-transform: scaleX(-1);
-	-webkit-transform: scaleY(-1);
-	transform: scaleX(-1); */
-	/* filter: FlipV;
-	-ms-filter: "FlipV";
-	z-index: 0; */
+	width: 100%;
+	object-fit: cover;
 }
 .layer {
 	background-color: #101e3a;
