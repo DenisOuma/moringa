@@ -16,9 +16,12 @@
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
 		/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
 
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		<title>Moringa</title>
@@ -38,28 +41,32 @@
 					</ul>
 				</div>
 				<div class="other-btn">
-					<button class="buttons">Log in</dibuttonv>
+					<button onclick="setLoginModal()" class="discover">Log in</button>
 					<button class="scan">
 						<span class="material-symbols-outlined"> qr_code_scanner </span>
-                    </button>
+					</button>
 				</div>
 			</div>
-			<div class="bacg-ground-img">
-				<img src="./assets/images/landing.jpg" alt="" />
+			<div id="pop-up" class="bacg-ground-img">
+				<!-- <img src="./assets/images/landing.jpg" alt="" /> -->
 				<div class="layer"></div>
-                <div class="welcome-note">
-                    <div class="empty"></div>
-                    <div class="text-info">
-                        <h1>Connect with Africa’s Best Tech Talents</h1>
-                        <p>Through market-aligned skills training, we help learners build new career possibilities with greater confidence and capability.</p>
-                        <div class="buttons-info">
-                            <div class="discove-talent">
-                                <button class="discover">Discover Talent</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				<div class="welcome-note">
+					<div class="empty"></div>
+					<div class="text-info">
+						<h1>Connect with Africa’s Best Tech Talents</h1>
+						<p>
+							Through market-aligned skills training, we help learners build new
+							career possibilities with greater confidence and capability.
+						</p>
+						<div class="buttons-info">
+							<div class="discove-talent">
+								<button class="discover">Discover Talent</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+		<script src="./assets/javascript/popupmodal.js"></script>
 	</body>
 </html>
