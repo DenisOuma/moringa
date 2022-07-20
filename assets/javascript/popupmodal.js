@@ -20,3 +20,4 @@ function setLoginModal() {
 	<button class="discover">Discover Talent</button>
 </div>`;
 }
+
