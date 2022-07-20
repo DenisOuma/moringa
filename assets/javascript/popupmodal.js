@@ -21,3 +21,4 @@ function setLoginModal() {
 	Hello Denis
 </div>`;
 }
+
