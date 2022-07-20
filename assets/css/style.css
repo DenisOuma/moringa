@@ -21,7 +21,19 @@ body {
 		top: 0;
 		width: 100%;
 		margin-left: 60px;
-		z-index: 1;
+		z-index: 2;
+	}
+	.welcome-note {
+		position: absolute !important;
+		top: 0;
+		width: 90%;
+		height: 90%;
+		display: flex;
+		align-items: center;
+		z-index: 3;
+
+		justify-content: space-between;
+		/* width: ; */
 	}
 }
 .bacg-ground-img > img {
@@ -36,7 +48,9 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
+	z-index: 1;
 	opacity: 0.6;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 /* Styling the nav Bar */
 .nav-bar {
@@ -62,7 +76,7 @@ body {
 .nav-options ul > li {
 	list-style-type: none;
 	/* color: ; */
-	font-size: 23px;
+	font-size: 22px;
 	color: #fff;
 	padding: 30px;
 }
@@ -72,4 +86,66 @@ body {
 .nav-options ul > li > a {
 	text-decoration: none;
 	color: #fff;
+}
+.other-btn {
+	display: flex;
+	/* width: 100px; */
+	width: 10%;
+	justify-content: space-between;
+}
+.buttons {
+	/* font-size: 20px; */
+	font-size: 20px;
+	padding: 20px;
+	font-weight: 900;
+	cursor: pointer;
+	border-radius: 20px;
+	background-color: inherit;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	color: #fff;
+	border: 1px solid #fa9755;
+}
+.scan {
+	background-color: inherit;
+	border: none;
+	color: #fff;
+	/* font-size: 300px; */
+}
+.material-symbols-outlined {
+	font-size: 40px;
+	cursor: pointer;
+	background-color: #14223e;
+	border-radius: 4px;
+	padding: 5px;
+}
+.material-symbols-outlined:hover {
+	border: 1px solid #f3510f;
+}
+
+/* Entering section */
+.text-info {
+	width: 50%;
+}
+.text-info > h1 {
+	color: #fff;
+	font-size: 40px;
+	font-family: "Cinzel", serif;
+}
+.text-info > p {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 500;
+	width: 80%;
+}
+.buttons-info {
+	margin-top: 30px;
+}
+.discover {
+	color: #14223e;
+	padding: 10px 20px 10px;
+	border: none;
+	font-size: 22px;
+	background-color: #f3510f;
+	border-radius: 30px;
 }
