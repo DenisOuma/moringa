@@ -1,0 +1,25 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+
+}
+
+input{
+    padding: 12px 20px;
+    margin: 8px 0px;
+    margin-right: 60%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 60%;
+    padding: 10px 15px;
+    background-color: #f3510f;
+    border-radius: 30px;
+}
