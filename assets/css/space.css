@@ -1,29 +1,47 @@
+body{
+    width: 40%;
+    padding-top: 5%;
+    margin: auto;
+    background-image: url(/assets/images/covid\ 19.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 form{
     display: flex;
     flex-direction: column;
     background-color: #ccc;
+    padding: 75px;
 
 }
 
+label{
+    padding: 10px;
+}
 input{
     padding: 12px 20px;
-    margin: 8px 0px;
-    margin-right: 60%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+
+
+}
+
+form h3{
+    margin: auto;
+    margin-top: 40px;
 }
 
 button{
-    margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 60%;
     padding: 10px 15px;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 100px;
     background-color: #f3510f;
     border-radius: 30px;
     cursor: pointer;
     
 }
-:hover{
-    color: #ccc;}
