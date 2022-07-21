@@ -37,7 +37,7 @@ document.getElementById("form").addEventListener("submit", function (e) {
 		if (userName === userObj[i].userName && passWord === userObj[i].passWord) {
 			console.log("welcome");
 			// window.open("../../alumni.html");
-			window.location.href = "../../alumni.html";
+			window.location.href = "alumni.html";
 		}
 	}
 	console.log("submited");
