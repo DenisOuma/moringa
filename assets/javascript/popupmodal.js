@@ -16,8 +16,9 @@ function setLoginModal() {
 	loginDiv.style.left = "0";
 	loginDiv.style.top = "0";
 	loginDiv.style.display = "block";
-	loginDiv.innerHTML = `<div class="discove-talent">
-	<button class="discover">Discover Talent</button>
+	loginDiv.innerHTML = `<div class="login-form">
+	<!-- Logindection goes here -->
+	Hello Denis
 </div>`;
 }
 

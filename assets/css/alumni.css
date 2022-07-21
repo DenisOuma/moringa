@@ -52,12 +52,11 @@ body {
   gap: 4rem;
 }
 
-event-container {
+.event-container {
   font-family: "Roboto", sans-serif;
-  margin: 0 auto;
+  margin-left: 15%;
 }
-
-.event-container h3.year {
+ .event-container h3.year {
   font-size: 40px;
   text-align: center;
   border-bottom: 1px solid #b1b1b1;
@@ -140,5 +139,5 @@ event-container {
 
   .event .event-left .event-date {
     padding: 10px 0;
-  }
+  } */
 }

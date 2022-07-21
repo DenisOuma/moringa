@@ -41,6 +41,9 @@ body {
 	width: 100%;
 	object-fit: cover;
 }
+.bacg-ground-img {
+	position: relative;
+}
 .layer {
 	background-color: #101e3a;
 	position: absolute;
@@ -159,4 +162,17 @@ body {
 }
 .discover:hover {
 	color: #fff;
+}
+
+/* Syling the login section */
+.login-form {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 20%;
+	right: 35%;
+	/* height: ; */
+	z-index: 999;
+	border-radius: 5px;
+
 }
