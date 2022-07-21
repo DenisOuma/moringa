@@ -18,24 +18,26 @@ var userObj = [
 	},
 ];
 
-// function loadHomePage(e) {
-// 	var userName = document.getElementById("userName").value;
-// 	var passWord = document.getElementById("passWord").value;
-//     console.log(userName)
+function loadHomePage(e) {
+	var userName = document.getElementById("userName").value;
+	var passWord = document.getElementById("passWord").value;
+	console.log(userName);
 
-// 	for (var i = 0; i < userObj.length; i++) {
-// 		if (userName === userObj[i].userName && passWord === userObj[i].passWord) {
-// 			window.open("../pages/alumni.html", "_self");
-// 		}
-// 	}
-// }
+	for (var i = 0; i < userObj.length; i++) {
+		if (userName === userObj[i].userName && passWord === userObj[i].passWord) {
+			window.open("../pages/alumni.html", "_self");
+		}
+	}
+}
 document.getElementById("form").addEventListener("submit", function (e) {
 	e.preventDefault();
 	var userName = document.getElementById("userName").value;
 	var passWord = document.getElementById("passWord").value;
 	for (var i = 0; i < userObj.length; i++) {
 		if (userName === userObj[i].userName && passWord === userObj[i].passWord) {
-			window.open("alumni.html", "_self");
+			console.log("welcome");
+			// window.open("../../alumni.html");
+			window.location.href = "../../alumni.html";
 		}
 	}
 	console.log("submited");
