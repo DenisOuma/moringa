@@ -1,6 +1,6 @@
 var userObj = [
 	{
-		userName: " duncan.langat@student.moringaschool.com",
+		userName: "duncan.langat@student.moringaschool.com",
 		passWord: "1234",
 	},
 
