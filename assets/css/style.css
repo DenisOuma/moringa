@@ -166,13 +166,13 @@ body {
 
 /* Syling the login section */
 .login-form {
-	height: 500px;
-	width: 500px;
-	background-color: red;
+	height: 300px;
+	width: 300px;
 	position: absolute;
 	top: 20%;
 	right: 35%;
 	/* height: ; */
 	z-index: 999;
 	border-radius: 5px;
+
 }
