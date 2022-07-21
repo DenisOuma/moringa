@@ -15,9 +15,11 @@ form{
     background-color: #ccc;
     padding: 75px;
 
-
 }
 
+label{
+    padding: 10px;
+}
 input{
     padding: 12px 20px;
     display: inline-block;
