@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: whitesmoke;
 }
 /*STYLE HEADER  */
 .header {
@@ -14,7 +14,6 @@ body {
   box-shadow: 15px 16px 60px #eeecec;
 }
 .logo-img {
-  /* height: 200px; */
   width: 300px;
 }
 .logo-img > img {
@@ -22,6 +21,10 @@ body {
   width: inherit;
   object-fit: contain;
   cursor: pointer;
+}
+
+#headersearchbar {
+  width: 800px;
 }
 
 /*STYLE  HEADER ICONS  */
@@ -35,6 +38,9 @@ body {
   grid-template-columns: 1fr 50% 1fr;
   gap: 3rem;
 }
+/* .welcome {
+  flex-grow: 1;
+} */
 
 /* Styling list items in the header */
 .general ul li {
