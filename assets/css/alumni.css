@@ -1,23 +1,22 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-color:whitesmoke;
 }
+
 /*STYLE HEADER  */
-.header {
+ .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
-  color: orangered;
   padding: 8px;
-  box-shadow: 15px 16px 60px #eeecec;
-}
-.logo-img {
+  background-color:lightblue;
+} 
+ .logo{
   width: 300px;
+ 
 }
-.logo-img > img {
-  /* height: 200px; */
+.logo > img {
   width: inherit;
   object-fit: contain;
   cursor: pointer;
@@ -26,23 +25,18 @@ body {
 #headersearchbar {
   width: 800px;
 }
-
-/*STYLE  HEADER ICONS  */
-.marked {
-  color: orangered;
-  margin-right: 50px;
+.marked{
+  color: white;
+  margin-right: 60px;
 }
-/*STYLE SECTION ONE  */
-.sectionone {
+
+/* STYLE SECTION ONE */
+.sectionone{
   display: grid;
   grid-template-columns: 1fr 50% 1fr;
   gap: 3rem;
 }
-/* .welcome {
-  flex-grow: 1;
-} */
 
-/* Styling list items in the header */
 .general ul li {
   list-style: none;
   color: black;
@@ -59,29 +53,35 @@ body {
 .profile ul li a {
   text-decoration: none;
 }
-/* section two begins */
+.welcome{
+  text-align: center;
+}
+/* SECTION TWO */
 .sectiontwo {
   display: flex;
   margin-right: 60px;
-  justify-content: left;
+  justify-content: space-evenly;
   gap: 100px;
   flex-direction: row;
 }
-
 .posts {
   flex-grow: 0.5;
 }
 .postbar {
   display: grid;
+  background-color:lightblue;
+  color: white;
 }
+
 .searchtabs {
   list-style: none;
   display: inline-flex;
   margin-right: 3px;
   justify-content: space-around;
 }
-/* styling post */
-.card {
+
+ /* STYLING USER POST */
+ .card {
   position: relative;
   min-width: 500px;
   min-height: 400px;
@@ -94,7 +94,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} 
 
 .userDetailS {
   display: flex;
@@ -108,13 +108,12 @@ body {
   border-radius: 50%;
   overflow: hidden;
   margin-right: 8px;
-}
-
-.card .top .userDetailS h3 {
+} 
+ .card .top .userDetailS h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 1rem;
-}
+} 
 
 .cover {
   position: absolute;
@@ -126,9 +125,10 @@ body {
 }
 .card .top .userDetailS h3 span {
   font-size: 0.75em;
-}
+} 
+
 .dot {
-  transform: scale(0.6);
+   transform: scale(0.6);
   cursor: pointer;
 }
 
@@ -156,9 +156,9 @@ body {
   font-weight: 500;
   margin-top: 5px;
   color: grey;
-  font-size: 16px;
+  font-size: 16px; */
 }
-.message {
+ .message {
   font-weight: 400;
   margin-top: 5px;
   color: grey;
@@ -196,10 +196,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: black;
-}
+} */
 
 .text::placeholder {
-  color: grey;
+  color:black;
 }
 .postTime {
   margin-top: 10px;
@@ -246,272 +246,24 @@ h3 span {
   display: flex;
   align-items: center;
 }
+
+
 .timedetails {
   display: flex;
   width: 100%;
   /* height:25%; */
   gap: 5px;
   margin-bottom: 20px;
-}
-
+} 
 .time {
   border-right: 3px solid #2c2a2a;
 }
 
 .eventdetails {
-  background-color: black;
-  color: white;
+  background-color:white;
+  color: black;
   border-radius: 5px;
 }
-body{
-    margin: 0;
-    padding: 0;
-  }
-  /*STYLE HEADER  */
-  .header{
-    display:flex;
-    justify-content:space-around;
-    align-items: center;
-    background-color:black ;
-    color:orangered;
-    padding:10px
-  }
-  /*STYLE  HEADER ICONS  */
-  .marked{
-    color:white;
-    margin-right:50px
-  }
-  /*STYLE SECTION ONE  */
-  .sectionone{
-    display: grid;
-    grid-template-columns: 1fr 50% 1fr;
-    gap: 3rem;
-  }
-  
-  /* Styling list items in the header */
-  .general ul li{
-    list-style: none;
-    color:black;
-  }
-  
-  .general ul li a {
-    text-decoration: none;
-  }
-  
-  .profile ul li{
-    list-style: none;
-  }
-  
-  .profile ul li a {
-    text-decoration: none;
-  }
-  /* section two begins */
-  .sectiontwo{
-    display:flex;
-    margin-right:60px;
-    justify-content:left;
-    gap:100px;
-    flex-direction:row;
-    
-  }
-  
-  .posts{
-    flex-grow:0.5;
-  }
-  .postbar {
-    display: grid;
-  }
-  .searchtabs {
-    list-style: none;
-    display: inline-flex;
-    margin-right: 3px;
-    justify-content: space-around;
-  }
-  /* styling post */
-  .card {
-    position: relative;
-    min-width: 500px;
-    min-height: 400px;
-    background-color: white;
-    box-shadow: 15px 16px 60px #eae6e6;
-    padding: 20px;
-  }
-  
-  .card .top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .userDetailS {
-    display: flex;
-    align-items: center;
-  }
-  
-  .card .top .userDetailS .profile_img {
-    position: relative;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 8px;
-  }
-  
-  .card .top .userDetailS h3 {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1rem;
-  }
-  
-  .cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100;
-    object-fit: cover;
-  }
-  .card .top .userDetailS h3 span {
-    font-size: 0.75em;
-  }
-  .dot {
-    transform: scale(0.6);
-    cursor: pointer;
-  }
-  
-  .imgBx {
-    position: relative;
-    width: 100;
-    height: 320px;
-    margin: 10px 0 15px;
-  }
-  .actionBtns {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .actionBtns img {
-    max-width: 24px;
-    cursor: pointer;
-  }
-  
-  .actionBtns .left img {
-    margin-right: 8px;
-  }
-  .likes {
-    font-weight: 500;
-    margin-top: 5px;
-    color: grey;
-    font-size: 16px;
-  }
-  .message {
-    font-weight: 400;
-    margin-top: 5px;
-    color: grey;
-    line-height: 1.5em;
-  }
-  .message b {
-    color: #222;
-  }
-  .message span{
-    color:blue
-    cursor:pointer
-  }
-  .comments{
-    margin-top: 10px;
-    font-weight: 400;
-    color: grey;
-  }
-  .addComments{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-  }
-  .addComments .userImg{
-    position: relative;
-    min-width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 8px;
-  }
-  .text{
-    width:100%;
-    border:none;
-    outline: none;
-    font-weight: 400;
-    font-size: 16px;
-    color: black;
-  
-  }
-  
-  .text::placeholder{
-    color: grey;
-  
-  }
-  .postTime{
-    margin-top: 10px;
-    font-weight: 500;
-    color: grey;
-  }
-  
-  /* GRP SECTION */
-  .groups {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .grp_img {
-    position: relative;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 8px;
-  }
-  
-  .groupDetailS h3 {
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 1rem;
-    }
-  .grpimg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100;
-      object-fit: cover;
-    }
-  h3 span {
-      font-size: 0.75em;
-    }
-  .join {
-      transform: scale(0.6);
-      cursor: pointer;
-    }
-   .groupDetailS {
-      display: flex;
-      align-items: center;
-    }
-    .events{
-      display: flex;
-      width:40%;
-      height:25%;
-      gap:5px;
-    }
-    
-    .time{
-      border-right: 3px solid #2c2a2a ;
-    }
-    
-    .eventdetails{
-      background-color: black;
-      color: white;
-      border-radius:5px; 
-<<<<<<< HEAD
-    }  
-=======
-    }  
->>>>>>> 77acf9801d19a0cfff7915e9db821c3d193ad530
+#welcome{
+  color:#222;
+}
