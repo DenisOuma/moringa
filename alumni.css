@@ -216,7 +216,7 @@ body {
 }
 .addComments .userImg {
 	position: relative;
-	min-width: 30px;
+	width: 30px;
 	height: 30px;
 	border-radius: 50%;
 	overflow: hidden;
@@ -229,6 +229,9 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	color: black;
+	border: 1px solid #101e3a;
+	border-radius: 5px;
+	padding: 10px;
 }
 */ .text::placeholder {
 	color: black;
@@ -372,4 +375,24 @@ h3 span {
 	height: 100vh;
 	/* margin-top: 30px; */
 	padding-top: 5px;
+}
+.profile > ul {
+	display: flex;
+	justify-content: space-between;
+}
+.profile > ul > li > a {
+	color: #fff;
+	background-color: gray;
+	padding: 10px;
+	border-radius: 30px;
+	text-decoration: none;
+}
+.searchtabs > li {
+	color: #000;
+	font-size: 20px;
+}
+.searchtabs > li > a {
+	color: #000;
+	text-decoration: none;
+	font-weight: 600;
 }
