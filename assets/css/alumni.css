@@ -10,7 +10,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 8px;
-  background-color:lightblue;
+  background-color:darkblue;
 } 
  .logo{
   width: 300px;
@@ -26,7 +26,7 @@ body {
   width: 800px;
 }
 .marked{
-  color: white;
+  color:white;
   margin-right: 60px;
 }
 
@@ -44,6 +44,7 @@ body {
 
 .general ul li a {
   text-decoration: none;
+  
 }
 
 .profile ul li {
