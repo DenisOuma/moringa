@@ -88,6 +88,8 @@ body {
 /* SECTION TWO */
 .sectiontwo {
 	display: flex;
+	width: 95%;
+	margin: 0 auto;
 	margin-right: 60px;
 	justify-content: space-evenly;
 	gap: 100px;
@@ -111,6 +113,7 @@ body {
 
 /* STYLING USER POST */
 .card {
+	margin-top: 15px;
 	position: relative;
 	min-width: 500px;
 	min-height: 400px;
@@ -236,10 +239,18 @@ body {
 }
 
 /* GRP SECTION */
+.group {
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+		rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	border-radius: 5px;
+}
 .groups {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	padding: 10px;
+	border-radius: 5px;
 }
 .grp_img {
 	position: relative;
@@ -254,6 +265,7 @@ body {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1rem;
+	font-size: 20px;
 }
 .grpimg {
 	position: absolute;
@@ -265,10 +277,21 @@ body {
 }
 h3 span {
 	font-size: 0.75em;
+	color: grey;
 }
 .join {
 	transform: scale(0.6);
 	cursor: pointer;
+	font-size: 25px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #101e3a;
+	color: #fff;
+	border: none;
+}
+.join:hover {
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .groupDetailS {
 	display: flex;
@@ -338,4 +361,7 @@ h3 span {
 .headericons {
 	display: flex;
 	align-items: center;
+}
+.popular > h4 {
+	font-size: 25px;
 }
