@@ -1,29 +1,178 @@
-form{
-    display: flex;
-    flex-direction: column;
-    background-color: #ccc;
-
+body {
+	width: 100%;
+	padding-top: 5%;
+	/* margin: auto; */
+	background-image: url(/assets/images/tai-s-captures-Lhb-zwQ-QGI-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: "Roboto", sans-serif;
+}
+@media (min-width: 1640px) {
+	.nav-bar {
+		margin: 0 auto !important;
+		/* height: 100%; */
+		overflow: hidden;
+		width: 90%;
+		/* background-color: #fff; */
+		position: fixed;
+		top: 0;
+		width: 100%;
+		margin-left: 60px;
+		z-index: 2;
+	}
+}
+.user-details {
+	display: flex;
+	flex-direction: column;
+	background-color: #101e3a;
+	padding: 75px;
+	opacity: 5;
+	border-radius: 5px;
+	box-shadow: #fa9755 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-input{
-    padding: 12px 20px;
-    margin: 8px 0px;
-    margin-right: 60%;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+label {
+	padding: 10px;
+	padding-top: 0px !important;
+	margin-top: 20px;
+	font-size: 20px;
+	color: #f3510f;
+}
+input {
+	padding: 15px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
 }
 
-button{
-    margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 60%;
-    padding: 10px 15px;
-    background-color: #f3510f;
-    border-radius: 30px;
-    cursor: pointer;
-    
+.user-details h3 {
+	margin: auto;
+	margin-top: 40px;
 }
-:hover{
-    color: #ccc;}
+
+.buttons {
+	/* font-size: 20px; */
+	font-size: 20px;
+	margin-top: 50px !important;
+	padding: 20px;
+	font-weight: 900;
+	cursor: pointer !important;
+	border-radius: 20px;
+	background-color: inherit;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	color: #fff;
+	border: 1px solid #fa9755;
+	width: 30%;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.buttons:hover {
+	background-color: #f3510f;
+	box-shadow: #fa9755 0px 2px 4px 0px, #f3510f 0px 2px 16px 0px;
+}
+.Moringa-title > h2 {
+	font-size: 30px;
+	font-family: "Cinzel", serif;
+	color: #fff;
+}
+
+/* styling the navbar */
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+.nav-bar {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto;
+	justify-content: space-around;
+	z-index: 8;
+}
+.logo-img {
+	/* height: 200px; */
+	width: 300px;
+}
+.logo-img > img {
+	/* height: 200px; */
+	width: inherit;
+	object-fit: contain;
+	cursor: pointer;
+}
+.nav-options ul {
+	display: flex;
+	align-items: center;
+}
+.nav-options ul > li {
+	list-style-type: none;
+	/* color: ; */
+	font-size: 22px;
+	color: #fff;
+	padding: 30px;
+}
+.nav-options ul > li > a:hover {
+	color: #fa9755;
+}
+
+.nav-options ul > li > a {
+	text-decoration: none;
+	color: #fff;
+}
+.other-btn {
+	display: flex;
+	/* width: 100px; */
+	width: 10%;
+	justify-content: space-between;
+	/* z-index: 5; */
+}
+.buttons {
+	/* font-size: 20px; */
+	font-size: 20px;
+	padding: 20px;
+	font-weight: 900;
+	cursor: pointer !important;
+	border-radius: 20px;
+	background-color: inherit;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	color: #fff;
+	border: 1px solid #fa9755;
+	cursor: pointer;
+}
+.signup-space {
+	width: 40%;
+	margin: auto;
+	justify-content: center;
+}
+.scan {
+	background-color: inherit;
+	border: none;
+	color: #fff;
+	/* font-size: 300px; */
+}
+.material-symbols-outlined {
+	font-size: 40px;
+	cursor: pointer;
+	background-color: #14223e;
+	border-radius: 4px;
+	padding: 5px;
+}
+.material-symbols-outlined:hover {
+	border: 1px solid #f3510f;
+}
+
+.discover {
+	color: #14223e;
+	padding: 10px 20px 10px;
+	border: none;
+	font-size: 22px;
+	background-color: #f3510f;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.discover:hover {
+	color: #fff;
+}
