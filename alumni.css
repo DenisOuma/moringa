@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: whitesmoke;
+	font-family: "Roboto", sans-serif;
 }
 
 /*STYLE HEADER  */
@@ -32,18 +33,47 @@ body {
 
 /* STYLE SECTION ONE */
 .sectionone {
+	/* background-color: red; */
+	width: 90%;
+	margin: auto;
+}
+.sectionone {
 	display: grid;
 	grid-template-columns: 1fr 50% 1fr;
 	gap: 3rem;
 }
+.general {
+	/* background-color: #fff; */
+}
 
 .general ul li {
 	list-style: none;
-	color: black;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	font-size: 20px;
+	cursor: pointer;
+	border: 1px solid grey;
+	padding: 10px;
+	border-radius: 5px;
 }
-
+.general > ul > li .material-symbols-rounded {
+	margin-left: 20px;
+}
+.general > h2 {
+	font-size: 30px;
+}
+.general > ul {
+	/* font-size: ; */
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+		rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
 .general ul li a {
 	text-decoration: none;
+	color: black;
 }
 
 .profile ul li {
@@ -59,6 +89,8 @@ body {
 /* SECTION TWO */
 .sectiontwo {
 	display: flex;
+	width: 95%;
+	margin: 0 auto;
 	margin-right: 60px;
 	justify-content: space-evenly;
 	gap: 100px;
@@ -82,6 +114,7 @@ body {
 
 /* STYLING USER POST */
 .card {
+	margin-top: 15px;
 	position: relative;
 	min-width: 500px;
 	min-height: 400px;
@@ -207,10 +240,18 @@ body {
 }
 
 /* GRP SECTION */
+.group {
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+		rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	border-radius: 5px;
+}
 .groups {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	padding: 10px;
+	border-radius: 5px;
 }
 .grp_img {
 	position: relative;
@@ -225,6 +266,7 @@ body {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1rem;
+	font-size: 20px;
 }
 .grpimg {
 	position: absolute;
@@ -236,10 +278,21 @@ body {
 }
 h3 span {
 	font-size: 0.75em;
+	color: grey;
 }
 .join {
 	transform: scale(0.6);
 	cursor: pointer;
+	font-size: 25px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #101e3a;
+	color: #fff;
+	border: none;
+}
+.join:hover {
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .groupDetailS {
 	display: flex;
@@ -309,4 +362,14 @@ h3 span {
 .headericons {
 	display: flex;
 	align-items: center;
+}
+.popular > h4 {
+	font-size: 25px;
+}
+
+.feed {
+	overflow-y: scroll;
+	height: 100vh;
+	/* margin-top: 30px; */
+	padding-top: 5px;
 }
